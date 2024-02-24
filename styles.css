@@ -1,0 +1,116 @@
+.navbar{
+    background: rgb(255, 255, 255) !important;
+}
+.navbar .bar{
+    font-size: 1.8rem;
+}
+.navbar .btn{
+    border: none;
+}
+.intro{
+    
+}
+.intro-background .intro-left{
+    background: rgb(247, 247, 247);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro-background .intro-left h1{
+    font-size: 3.2rem;
+    font-weight: 800;
+}
+.intro-background .intro-left .buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.intro-background .intro-left .btn:nth-child(1){
+    background: rgb(255, 76, 106);
+    border-radius: 0;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+.intro-background .intro-left .btn:nth-child(2){
+    background: rgb(255, 255, 255);
+    border-radius: 0;
+    color: rgb(61, 61, 61);
+    font-weight: 600;
+    border: solid 0.1px rgb(204, 204, 204);
+}
+.intro-background .intro-right{
+    background: rgb(247, 247, 247);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.intro-background.section-2 .intro-right{
+    background: none;
+}
+.intro-background.section-2{
+    background: rgba(13, 24, 54, 0.226);
+}
+.intro-background.section-2 .intro-left{
+    background: none;
+}
+
+.list-group-1 li{
+    font-size: 1.3em;
+}
+
+@media screen and (max-width: 768px) {
+    img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro-background .intro-left h1{
+        font-size: 2.4rem;
+        font-weight: 800;
+    }
+    .intro-background .intro-right{
+        height: 62vh;
+    }
+    .intro-background .intro-left{
+        height: 62vh;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .intro-background .intro-left h1{
+        font-size: 2.2rem;
+        font-weight: 800;
+    }
+    .intro-background .intro-right{
+        height: 62vh;
+    }
+    .intro-background .intro-left{
+        height: 62vh;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro-background .intro-left h1{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .intro-background .intro-right{
+        height: 60vh;
+    }
+    .intro-background .intro-left{
+        height: 60vh;
+    }
+}
+@media screen and (min-width: 1500px) {
+    .intro-background .intro-right{
+        height: 50vh;
+    }
+    .intro-background .intro-left{
+        height: 50vh;
+    }
+}
